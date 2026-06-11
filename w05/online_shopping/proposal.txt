@@ -1,0 +1,158 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+ONLINE SHOPPING CART SYSTEM
+A comprehensive Python application that simulates an online grocery shopping experience
+where customers can browse products, add/remove items from their cart, calculate totals with
+taxes, and generate purchase receipts.
+
+
+2. What real-world problem will your program address or help to solve?
+Problem Statement: Modern grocery stores need efficient online ordering systems to:
+Allow customers to shop conveniently from home
+Process orders quickly and accurately
+Calculate prices, taxes, and totals without errors
+Generate professional receipts for customers
+Track inventory and customer purchases
+Provide order history and statistics
+Solution: This Online Shopping Cart System will:
+✅ Enable customers to browse a product catalog (CSV file)
+✅ Allow adding/removing items to/from shopping cart
+✅ Calculate subtotals, apply sales tax (6%), and compute final totals
+✅ Save orders to a CSV file for record-keeping
+✅ Generate formatted receipts with date/time stamps
+✅ Provide order history and basic statistics
+✅ Handle errors gracefully (missing files, invalid products, permission issues)
+
+3. What will you learn from developing this program?
+1. File I/O & CSV Processing
+Reading and writing CSV files
+Parsing structured data
+Handling file operations safely
+2. Data Structures & Algorithms
+Using dictionaries to store product catalogs
+Using lists to manage shopping carts
+Searching and filtering data efficiently
+. Exception Handling
+Catching FileNotFoundError (missing files)
+Catching PermissionError (file access issues)
+Catching KeyError (invalid product IDs)
+Catching ValueError (invalid input)
+Creating meaningful error messages
+4. Mathematical Calculations
+Calculating subtotals from quantities and prices
+Applying percentage-based taxes
+Rounding currency values correctly
+Handling floating-point precision
+Date/Time Operations
+Getting current date and time
+Formatting dates for display
+Calculating future dates (delivery dates, return dates)
+6. Function Design & Reusability
+Writing pure functions (parameters + return values)
+Separating concerns (UI vs. logic)
+Creating testable, reusable components
+Avoiding side effects in functions
+Unit Testing with pytest
+Writing test functions
+Using assertions to verify behavior
+Testing edge cases and error conditions
+Using pytest.approx() for floating-point comparisons
+8. Real-World Problem Solving
+Breaking complex problems into smaller functions
+Designing data structures for real applications
+Implementing features based on requirements
+Debugging and improving code iteratively
+4. What Python modules will your program use?
+I may use csv,pytest,datetime...
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+Product Management Functions
+1. read_products_catalog(filename, key_column_index)
+Parameters: filename (str), key_column_index (int)
+Returns: dict {product_id: [id, name, price, category, stock]}
+Purpose: Read products from CSV into dictionary
+Testable: ✅ Yes (no user input, returns data)
+2. get_product_price(products_dict, product_id)
+Parameters: products_dict (dict), product_id (str)
+Returns: float (price) or None if not found
+Purpose: Look up price for a product
+Testable: ✅ Yes
+ validate_product_id(products_dict, product_id)
+Parameters: products_dict (dict), product_id (str)
+Returns: bool (True if valid, False if not)
+Purpose: Check if product exists in catalog
+Testable: ✅ Yes
+. add_item_to_cart(cart, product_id, quantity, price)
+Parameters: cart (list), product_id (str), quantity (int), price (float)
+Returns: list (updated cart)
+Purpose: Add item to shopping cart
+Testable: ✅ Yes
+. remove_item_from_cart(cart, product_id)
+Parameters: cart (list), product_id (str)
+Returns: list (updated cart)
+Purpose: Remove item from shopping cart
+Testable: ✅ Yes
+update_item_quantity(cart, product_id, new_quantity)
+Parameters: cart (list), product_id (str), new_quantity (int)
+Returns: list (updated cart)
+Purpose: Change quantity of item in cart
+Testable: ✅ Yes
+get_cart_item_count(cart)
+Parameters: cart (list)
+Returns: int (total number of items)
+Purpose: Count total items in cart
+Testable: ✅ Yes
+Calculation Functions
+1. calculate_item_total(quantity, price)
+Parameters: quantity (int), price (float)
+Returns: float (total for that item)
+Purpose: Calculate cost of one item type
+Testable: ✅ Yes
+calculate_subtotal(cart)
+Parameters: cart (list)
+Returns: float (subtotal before tax)
+Purpose: Sum all items in cart
+Testable: ✅ Yes
+3. calculate_sales_tax(subtotal, tax_rate=0.06)
+Parameters: subtotal (float), tax_rate (float, default 0.06)
+Returns: float (tax amount)
+Purpose: Calculate sales tax
+Testable: ✅ Yes
+ calculate_total(subtotal, tax)
+Parameters: subtotal (float), tax (float)
+Returns: float (final total)
+Purpose: Calculate final amount due
+Testable: ✅ Yes
+5. apply_discount(subtotal, discount_percent)
+Parameters: subtotal (float), discount_percent (float)
+Returns: float (discounted amount)
+Purpose: Apply percentage discount to order
+Testable: ✅ Yes
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+
+test_payment...
+

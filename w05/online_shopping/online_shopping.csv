@@ -1,0 +1,25 @@
+product_id,product_name,category,price,quantity
+P01,Smartphone,Electronics,699.99,50
+P02,Laptop,Electronics,1299.99,25
+P03,Headphones,Electronics,199.99,100
+P04,T-Shirt,Fashion,19.99,200
+P05,Jeans,Fashion,49.99,150
+P06,Sneakers,Fashion,89.99,80
+P07,Chocolate,Food,4.99,500
+P08,Chips,Food,2.99,300
+P09,Video Game,Gaming,59.99,120
+P10,Board Game,Gaming,29.99,75
+P11,Novel,Books,14.99,200
+P12,Textbook,Books,89.99,50
+P13,Blender,Home Appliances,99.99,40
+P14,Vacuum Cleaner,Home Appliances,149.99,30
+P15,Smartwatch,Electronics,299.99,60
+P16,Tablet,Electronics,499.99,40
+P17,Jacket,Fashion,79.99,70
+P18,Socks,Fashion,9.99,300
+P19,Coffee,Food,9.99,400
+P20,Tea,Food,4.99,350
+P21,Action Figure,Toys,24.99,150
+P22,Doll,Toys,19.99,200
+P23,Puzzle,Toys,14.99,100
+P24,Board Game,Gaming,29.99,75
