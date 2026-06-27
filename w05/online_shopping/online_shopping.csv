@@ -23,3 +23,79 @@ P21,Action Figure,Toys,24.99,150
 P22,Doll,Toys,19.99,200
 P23,Puzzle,Toys,14.99,100
 P24,Board Game,Gaming,29.99,75
+P25,Mouse,Electronics,25.99,120
+P26,Keyboard,Electronics,45.99,90
+P27,Monitor,Electronics,199.99,60
+P28,USB Cable,Electronics,9.99,300
+P29,Power Bank,Electronics,39.99,150
+P30,Charger,Electronics,19.99,200
+P31,Hoodie,Fashion,39.99,120
+P32,Cap,Fashion,14.99,180
+P33,Scarf,Fashion,12.99,140
+P34,Belt,Fashion,19.99,160
+P35,Shorts,Fashion,24.99,130
+P36,Sandals,Fashion,34.99,110
+P37,Biscuits,Food,3.49,400
+P38,Soda,Food,1.99,600
+P39,Juice,Food,2.49,500
+P40,Bread,Food,1.49,700
+P41,Milk,Food,2.99,450
+P42,Eggs,Food,3.99,350
+P43,Controller,Gaming,49.99,100
+P44,Console,Gaming,399.99,30
+P45,Gaming Chair,Gaming,199.99,40
+P46,VR Headset,Gaming,299.99,20
+P47,Gamepad,Gaming,39.99,110
+P48,Game Disk,Gaming,59.99,90
+P49,Notebook,Books,6.99,500
+P50,Dictionary,Books,24.99,80
+P51,Magazine,Books,5.99,300
+P52,Comics,Books,9.99,250
+P53,Story Book,Books,12.99,200
+P54,Encyclopedia,Books,79.99,40
+P55,Iron,Home Appliances,49.99,70
+P56,Toaster,Home Appliances,39.99,60
+P57,Microwave,Home Appliances,129.99,50
+P58,Fan,Home Appliances,59.99,80
+P59,Air Conditioner,Home Appliances,399.99,25
+P60,Heater,Home Appliances,89.99,45
+P61,Teddy Bear,Toys,19.99,200
+P62,Toy Car,Toys,14.99,180
+P63,Building Blocks,Toys,29.99,150
+P64,Drone,Toys,149.99,40
+P65,RC Car,Toys,89.99,60
+P66,Kite,Toys,9.99,120
+P67,Desk,Furniture,129.99,50
+P68,Chair,Furniture,59.99,100
+P69,Sofa,Furniture,499.99,20
+P70,Bed,Furniture,699.99,15
+P71,Table,Furniture,149.99,40
+P72,Bookshelf,Furniture,89.99,35
+P73,Shampoo,Beauty,9.99,300
+P74,Soap,Beauty,2.99,500
+P75,Lotion,Beauty,7.99,250
+P76,Perfume,Beauty,49.99,80
+P77,Makeup Kit,Beauty,59.99,70
+P78,Face Cream,Beauty,19.99,150
+P79,Football,Sports,29.99,120
+P80,Basketball,Sports,34.99,100
+P81,Tennis Racket,Sports,89.99,60
+P82,Running Shoes,Sports,99.99,90
+P83,Yoga Mat,Sports,19.99,150
+P84,Dumbbells,Sports,49.99,80
+P85,Watch,Accessories,79.99,100
+P86,Sunglasses,Accessories,29.99,150
+P87,Backpack,Accessories,39.99,130
+P88,Wallet,Accessories,24.99,140
+P89,Handbag,Accessories,59.99,90
+P90,Jewelry Set,Accessories,99.99,60
+P91,Printer,Electronics,149.99,40
+P92,Scanner,Electronics,129.99,30
+P93,Router,Electronics,79.99,70
+P94,Hard Drive,Electronics,89.99,60
+P95,SSD,Electronics,109.99,50
+P96,Graphics Card,Electronics,399.99,25
+P97,Coat,Fashion,99.99,60
+P98,Gloves,Fashion,14.99,120
+P99,Pajamas,Fashion,29.99,90
+P100,Slippers,Fashion,19.99,110
